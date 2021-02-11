@@ -16,7 +16,7 @@ build and run:
 
 1.) Navigate to the directory where you wish to clone this repository.
 
-2.) git clone https://github.com/Reevzee/docker_events2Stdout.git
+2.) git clone https://github.com/Reevzee/Docker_stats2stdout.git
 
 3.) docker build -t docker_stats:v1
 
