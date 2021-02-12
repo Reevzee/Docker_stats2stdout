@@ -18,6 +18,8 @@ build and run:
 
 2.) git clone https://github.com/Reevzee/Docker_stats2stdout.git
 
-3.) docker build -t docker_stats:v1
+3.) chmod +x stats.js
 
-4.) docker run -d --name dockerstats -v /var/run/docker.sock:/var/run/docker.sock docker_stats:v1
+4.) docker build -t docker_stats:v1
+
+5.) docker run -d --name dockerstats -v /var/run/docker.sock:/var/run/docker.sock docker_stats:v1
